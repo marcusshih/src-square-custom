@@ -1,5 +1,6 @@
 /* SRC Square customization test */
 
 h1 {
+  color: red !important;
   font-size: 72px !important;
 }
