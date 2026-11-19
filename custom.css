@@ -1,42 +1,77 @@
 
-/* ==================================
-   SRC Square Shop Custom CSS
-   ================================== */
+/* =========================================
+   SRC Square CSS Customization Test
+   H1 + H6 only
+   ========================================= */
 
-/* Desktop */
+/* DESKTOP */
 @media (min-width: 768px) {
+
   h1 {
+    color: red !important;
+    background-color: yellow !important;
+
     font-size: 64px !important;
-    line-height: 1.1 !important;
-    letter-spacing: -1px !important;
+    font-weight: 900 !important;
+    font-style: italic !important;
+
+    letter-spacing: 5px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+
+    padding: 30px !important;
+    margin: 20px 0 !important;
   }
 
-  h2 {
-    font-size: 40px !important;
-    line-height: 1.2 !important;
-  }
+  h6 {
+    color: blue !important;
+    background-color: lightblue !important;
 
-  p {
-    font-size: 18px !important;
-    line-height: 1.6 !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+
+    letter-spacing: 3px !important;
+    line-height: 1.8 !important;
+    text-align: right !important;
+
+    padding: 20px !important;
+    margin: 15px 0 !important;
   }
 }
 
-/* Mobile */
+/* MOBILE */
 @media (max-width: 767px) {
+
   h1 {
+    color: green !important;
+    background-color: pink !important;
+
     font-size: 36px !important;
-    line-height: 1.15 !important;
-    letter-spacing: -0.5px !important;
+    font-weight: 300 !important;
+    font-style: normal !important;
+
+    letter-spacing: -2px !important;
+    line-height: 1.1 !important;
+    text-align: left !important;
+    text-transform: lowercase !important;
+
+    padding: 10px !important;
+    margin: 5px 0 !important;
   }
 
-  h2 {
-    font-size: 26px !important;
-    line-height: 1.25 !important;
-  }
+  h6 {
+    color: orange !important;
+    background-color: purple !important;
 
-  p {
-    font-size: 16px !important;
-    line-height: 1.5 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+
+    letter-spacing: 0 !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+
+    padding: 5px !important;
+    margin: 5px 0 !important;
   }
 }
