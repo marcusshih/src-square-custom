@@ -1,6 +1,16 @@
 /* SRC Square customization test */
 
+
+/* Desktop */
 h1 {
   color: red !important;
   font-size: 72px !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  h1 {
+    color: blue !important;
+    font-size: 36px !important;
+  }
 }
