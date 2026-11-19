@@ -1,16 +1,42 @@
-/* SRC Square customization test */
 
+/* ==================================
+   SRC Square Shop Custom CSS
+   ================================== */
 
 /* Desktop */
-h1 {
-  color: red !important;
-  font-size: 72px !important;
+@media (min-width: 768px) {
+  h1 {
+    font-size: 64px !important;
+    line-height: 1.1 !important;
+    letter-spacing: -1px !important;
+  }
+
+  h2 {
+    font-size: 40px !important;
+    line-height: 1.2 !important;
+  }
+
+  p {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+  }
 }
 
 /* Mobile */
 @media (max-width: 767px) {
   h1 {
-    color: blue !important;
     font-size: 36px !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.5px !important;
+  }
+
+  h2 {
+    font-size: 26px !important;
+    line-height: 1.25 !important;
+  }
+
+  p {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
   }
 }
